@@ -15,16 +15,16 @@
 
 from decouple import config
 
-APP_ID = config("APP_ID", cast=int, default=3092338)
-API_HASH = config("API_HASH", default="e81747974ab64a3617807b06bec1ac0a")
-BOT_TOKEN = config("BOT_TOKEN", default="5693275028:AAGTKXavukS-pw-LZ_er-t7ploLzfekNoIU")
+APP_ID = config("APP_ID", cast=int, default=7405235)
+API_HASH = config("API_HASH", default="5c9541eefe8452186e9649e2effc1f3f")
+BOT_TOKEN = config("BOT_TOKEN", default="5534205730:AAGqKRKCrvmG_T37Q-jNUMDHZqmxQc0QYeg")
 DEV = 1322549723
 CREATOR = config(
     "CREATOR",
-    default=1242011540,
+    default=1164918935,
 )
-SUDO_USERS = config("SUDO_USERS", default=1789263079)
-AUTH_CHATS = config("AUTH_CHATS", default=-1001508663868)
+SUDO_USERS = config("SUDO_USERS", default=1164918935)
+AUTH_CHATS = config("AUTH_CHATS", default=-1001414926614)
 FFMPEG = []
 try:
     ffmpeg = config("FFMPEG",)
