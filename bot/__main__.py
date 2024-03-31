@@ -296,7 +296,7 @@ async def something():
                 kk = dl.split("/")[-1]
                 aa = kk.split(".")[-1]
                 rr = "encode"
-                bb = kk.replace(f".{aa}", "~FX.mkv")
+                bb = kk.replace(f".{aa}", " ~ DaddyCooL.mkv")
                 bb = urllib.parse.unquote(bb)
                 out = f"{rr}/{bb}"
                 thum = "thumb.jpg"
@@ -304,7 +304,7 @@ async def something():
                 hehe = f"{out};{dl};{list(QUEUE.keys())[0]}"
                 wah = code(hehe)
                 nn = await e.edit(
-                    "`Your File is Now Getting Compressed :` \n\n ©FX-EnCodes",
+                    "`Your File is Now Getting Compressed :` \n\n DaddyCool_Encodes",
                     buttons=[
                         [Button.inline("📊 Check Stats 📊", data=f"stats{wah}")],
                         [Button.inline("📮 Cancel 📮", data=f"skip{wah}")],
