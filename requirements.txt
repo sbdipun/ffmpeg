@@ -5,7 +5,6 @@ python-decouple
 pyaesni
 psutil
 tgcrypto
-lxml[html_clean]
-
+html_telegraph_poster 
 
 
