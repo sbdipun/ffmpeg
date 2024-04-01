@@ -36,7 +36,7 @@ from pathlib import Path
 
 import aiohttp
 import psutil
-from html_telegraph_poster import TelegraphPoster
+from lxml_html_clean import TelegraphPoster
 from telethon import Button, TelegramClient, errors, events, functions, types
 from telethon.helpers import _maybe_await
 from telethon.sessions import StringSession
