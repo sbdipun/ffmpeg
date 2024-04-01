@@ -6,5 +6,7 @@ pyaesni
 psutil
 tgcrypto
 html_telegraph_poster 
-
+lxml
+requests
+requests_toolbelt
 
